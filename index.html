@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <title>JS Quiz</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-7 shadow-lg p-3 mb-5 bg-white rounded">
+                <h1 class="text-center">Javascript Quiz</h1>
+                <div id="quizdiv">
+                    <h2 id="question">Question</h2>
+                    <ol>
+                        <li>
+                            <input type="radio" class="answer" id="a" name="option">
+                            <label for="a" id="avalue">option a</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="b" name="option">
+                            <label for="b" id="bvalue">option b</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="c" name="option">
+                            <label for="c" id="cvalue">option c</label>
+                        </li>
+                        <li>
+                            <input type="radio" class="answer" id="d" name="option">
+                            <label for="d" id="dvalue">option d</label>
+                        </li>
+                    </ol>
+                    <button class="btn btn-primary" id="submit">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
